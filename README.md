@@ -12,3 +12,9 @@ It contains my name, a recent photo, my recent projects, and links to places to 
 ![](./assets/images/portfolioscreenshot3.png)
 
 ## Deployed Page Link 
+
+https://cmhaines215.github.io/portfolio/
+
+## Github Repository Link
+
+https://github.com/cmhaines215/portfolio
