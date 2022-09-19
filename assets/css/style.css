@@ -19,6 +19,7 @@ nav{
     list-style: none;
     gap: 2rem;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 #my-name{
     position: relative;
@@ -44,23 +45,67 @@ header figure {
     right: 14px;
     top: 0px;
 }
-aside{
-    margin-left: 15px;
-    padding: 15px;
-    width: 13%;
-    float: left;
-    height: 100%;
-    border-right: solid;
-    border-color: rgb(3, 54, 54);
+/* main style */
+main{
+    width: 100%;
+    text-align: center;
+}
+h2{
+    text-align:left;
+    text-decoration: underline;
+    position: relative;
+    left: 84px;
+}
 
+#refactor img{
+    height: 300px;
+    width:60%;
+    text-align:center;
+    min-width: 800px;
+    ;
 
+}
+h3{
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.project-section2{
+    flex:4;
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     ;
 }
+.futureprojects{
+    padding: 10px;
+    flex: 0 0 400px;
+}
+p{
+    height:auto;
+    width: 65%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 205px;
+    bottom: 14px;
+    font-weight: bold;
+}
+iframe{
+    height: auto;
+    width:400px;
+    position:relative;
+    top:20px;
+}
+/* footer style: */
 footer{
     padding-top: 18px;
 
 }
-h3{
+#contact{
     text-align: center;
 }
 #linkgroup{
